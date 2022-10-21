@@ -156,6 +156,7 @@ def index(request):
                         if agent is None:
                             response = "END Agent doesn't Exist"
 
+                            
                         else:
                             agentAccount = BankAccount.objects.get(bankUser=agent)
                             transaction = BankTransaction.objects.create(From=agent,To=phone_number,Amount=amount)
