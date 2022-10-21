@@ -6,3 +6,4 @@ admin.site.register(SessionLevel)
 admin.site.register(BankUser)
 admin.site.register(BankAccount)
 admin.site.register(BankTransaction)
+
